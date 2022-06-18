@@ -1,5 +1,5 @@
 const db = require("../models")
-const Todo = db.todo;
+const Todo = db.todo_list;
 const Op = db.Sequelize.Op;
 
 // Create and Save a new Task
@@ -13,7 +13,7 @@ exports.create = (req, res) => {
     }
 
 // Create a Task
-const task = {
+const todo = {
     task: req.body.task,
     description: req.body.description,
     due_date: req.body.due_date,

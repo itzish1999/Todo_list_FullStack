@@ -2,10 +2,10 @@
 module.exports = {
     SERVER: 'localhost',
     USER: 'postgres',
-    DB: 'employees',
+    DB: 'todo',
     PASSWORD: 'Alpha123Beta456Charlie789',
     dialect: 'postgres',
-    Pool: {
+    pool: {
         max: 5,
         min: 0,
         acquire: 30000,

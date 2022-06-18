@@ -14,6 +14,8 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.BOOLEAN
         }
     });
+
+    return Todo;
 };
 
 // Instead of creating one through the db cli, this makes it for us

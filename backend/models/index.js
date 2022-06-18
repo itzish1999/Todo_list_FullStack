@@ -24,6 +24,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 // having our app use the data model we use
-db.todo = require('./todo.model.js')(sequelize, Sequelize);
+db.todo_list = require('./todo.model.js')(sequelize, Sequelize);
 
 module.exports = db;
