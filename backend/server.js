@@ -1,6 +1,6 @@
 // Import modules
 const express = require("express");
-const bodyParser = require("bodt-parser");
+const bodyParser = require("body-parser");
 const cors = require("cors");
 
 // Initialize app via express
