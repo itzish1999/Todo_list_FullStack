@@ -1,5 +1,3 @@
-const { Pool } = require("pg");
-
 // Connect database to app
 module.exports = {
     SERVER: 'localhost',
